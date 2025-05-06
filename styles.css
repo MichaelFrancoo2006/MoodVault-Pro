@@ -44,3 +44,7 @@ header {
   font-size: 2rem;
   font-weight: bold;
 }
+
+.nav-links {
+  list-style: none;
+}
