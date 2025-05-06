@@ -50,3 +50,7 @@ header {
   display: flex;
   gap: 1.5rem;
 }
+
+.nav-links li a {
+  color: #fff;
+}
