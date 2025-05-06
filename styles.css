@@ -53,4 +53,5 @@ header {
 
 .nav-links li a {
   color: #fff;
+  text-decoration: none;
 }
