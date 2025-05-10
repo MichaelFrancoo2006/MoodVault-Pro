@@ -66,4 +66,5 @@ header {
 /* Sections (Home, Mood Tracker, Vault List, Settings) */
 .section {
   background-color: #fff;
+  padding: 2rem;
 }
