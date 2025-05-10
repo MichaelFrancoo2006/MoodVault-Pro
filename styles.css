@@ -70,4 +70,5 @@ header {
   margin: 100px auto 2rem auto;
   max-width: 900px;
   width: 90%;
+  border-radius: 10px;
 }
