@@ -88,3 +88,29 @@ header {
   margin-bottom: 2rem; 
   color: #666;
 }
+
+/*  Quote Box  */
+.quote-box {
+  background-color: #e0f7fa;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+}
+
+#refresh-quote {
+  padding: 0.75rem 1.5rem;
+  background-color: #0077b6;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#refresh-quote:hover {
+  background-color: #005f8f;
+  transform: translateY(-2px);
+}
