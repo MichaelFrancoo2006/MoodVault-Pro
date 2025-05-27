@@ -114,3 +114,32 @@ header {
   background-color: #005f8f;
   transform: translateY(-2px);
 }
+
+/*  Mood Tracker  */
+#mood-tracker h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.mood-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.mood-btn {
+  padding: 0.75rem 1.25rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #f4f4f4;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.mood-btn:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.05);
+}
