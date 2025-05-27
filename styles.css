@@ -75,3 +75,16 @@ header {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   animation: fadeIn 0.6s ease;
 }
+
+/* Home Section */
+#home h1 {
+  font-size: 2.4rem; 
+  margin-bottom: 1rem; 
+  color: #1a202c; 
+}
+
+#home p {
+  font-size: 1.2rem; 
+  margin-bottom: 2rem; 
+  color: #666;
+}
