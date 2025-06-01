@@ -286,3 +286,28 @@ header {
   background-color: #c9302c; 
   transform: translateY(-2px); 
 }
+
+
+/* Footer */
+footer {
+  background-color: #2a2d42; 
+  color: #fff; 
+  text-align: center; 
+  padding: 1.5rem 1rem; 
+  width: 100%; 
+  margin-top: 2rem; 
+}
+
+.footer-content p {
+  margin-bottom: 0.5rem; 
+  font-size: 0.9rem; 
+}
+
+footer a {
+  color: #ffba08; 
+  text-decoration: none; /
+}
+
+footer a:hover {
+  text-decoration: underline; 
+}
