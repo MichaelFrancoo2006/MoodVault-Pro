@@ -196,3 +196,65 @@ header {
   background-color: #005f8f;
   transform: translateY(-2px);
 }
+
+/* Vault List Section */
+#vault-list h2 {
+  font-size: 2rem; 
+  margin-bottom: 1.5rem; 
+}
+
+.vault-controls {
+  margin-bottom: 1rem; 
+  text-align: center; 
+}
+
+.vault-controls select {
+  padding: 0.5rem 1rem; 
+  border-radius: 6px; 
+  border: 1px solid #aaa; 
+  font-size: 1rem; 
+}
+
+#vaults {
+  list-style: none; 
+  padding: 0; 
+  margin: 0 auto; 
+  max-width: 700px; 
+}
+
+.vault-entry {
+  background-color: #fbfbfb; 
+  border: 1px solid #ddd; 
+  border-radius: 10px; 
+  padding: 1rem; 
+  margin-bottom: 1rem; 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05); 
+}
+
+.vault-content p {
+  margin: 0; 
+  font-weight: 500; 
+  font-size: 1rem; 
+  color: #333; 
+}
+
+.vault-actions {
+  display: flex; 
+  gap: 0.5rem; 
+}
+
+.vault-actions button {
+  background: none; 
+  border: none; 
+  font-size: 1.25rem; 
+  cursor: pointer; 
+  transition: transform 0.2s ease, color 0.2s ease; 
+}
+
+.vault-actions button:hover {
+  transform: scale(1.2); 
+  color: #0077b6; 
+}
